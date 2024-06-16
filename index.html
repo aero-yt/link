@@ -10,6 +10,9 @@ const queryString = window.location.search;
       case "?ab0c":
         link = "https://google.com";
         break;
+      case "?cc-sa":
+        link = "https://forms.gle/6n9suea67f5UiytH6";
+        break;
     }
   document.write("<body>");
   if (link === "")
@@ -18,7 +21,7 @@ const queryString = window.location.search;
   }
   else
   {
-    document.write("<a href=\"" + link + "\">Click this button to redirect to the link that is specified using the code in this url</a>"); 
+    document.write("<a href=\"" + link + "\">Click this to redirect</a>"); 
   }
   document.write("</body>");
 </script>
